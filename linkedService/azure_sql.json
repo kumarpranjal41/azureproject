@@ -1,0 +1,17 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "azureprojectderverpranjal.database.windows.net",
+			"database": "azureprojectdbpranjal",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminpranjal",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDMzRDkzODQ1LTM0M0QtNEExRC05OTEyLTE3NjNDODVFRDkyNF9mZjc1MzMzMy05YWM1LTQzMmEtOTJmMS00NWM2NTk2NmJlZWYiDQp9"
+		}
+	}
+}
